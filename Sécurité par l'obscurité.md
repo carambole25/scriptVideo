@@ -78,7 +78,7 @@ bob -- SYN port 1111 --> serveur (ouvre le service ssh pour l'ip de bob)
 bob  -- auth ssh ------> serveur
 ```
 
-Enfaite il va y avoir un service par exemple knockd qui va écouter tout les port de la machine et si il reçoi dans l'odre et sur une durée de temps limité la combinaison de port il va autorisé dans le firewall la connexion pour l'adresse IP.
+Enfaite il va y avoir un service par exemple knockd qui va écouter tout les port de la machine et si il reçoi dans l'odre et sur une durée de temps limité la combinaison de port il va autorisé ouvrir le port dans le firewall.
 
 Attention il y a deux risques avec ça :
 - Il faut choisir une combinaison de port qui ne soit pas que croissante.
