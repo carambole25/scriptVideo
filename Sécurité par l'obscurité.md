@@ -62,7 +62,7 @@ Non seulement ça peu ralentir le système mais surtout dans vous allez avoir du
 La bonne pratique dans ces cas là pourrait être d'utiliser un autre port que le 22. Ainsi vous vous éconnomiserez du traffic.
 Et dans le cas ou il y a une tentative d'attaque, vous saurez que l'attaquant n'est pas juste un bot et donc représente une vrai menance à gérer.
 
-#### L'exemple du port-knocking
+## L'exemple du port-knocking
 Tout ça c'est super mais est ce qu'on pourrait pas faire mieux pour encore plus rendre notre serveur ssh indetectable ?
 
 C'est ici qu'intervien le port-knocking (pour moi l'une des meilleurs technique de sécurité par l'obscurité).
